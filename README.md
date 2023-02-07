@@ -5,7 +5,7 @@
 ## 
 
 ## Downloading the project
-If you are on windows and you don't want to compile the project yourself <br>you can download it <a href=https://github.com/Apologieze/ParticleSimulation/releases/download/v0.1/ParticleSimulation.rar>here</a> and run the **project-particles.exe** file
+If you are on windows and you don't want to compile the project yourself <br>you can download the release with binaries <a href=https://github.com/Apologieze/ParticleSimulation/releases/download/v0.1/ParticleSimulation.rar>here</a> and run the **project-particles.exe** file
 
 ## Compiling the files
 
