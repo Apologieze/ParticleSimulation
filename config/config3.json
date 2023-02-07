@@ -1,0 +1,20 @@
+{
+    "WindowTitle": "Fire",
+    "WindowSizeX": 1900,
+    "WindowSizeY": 1000,
+    "ParticleImage": "assets/particle.png",
+    "InitNumParticles": 1,
+    "RandomSpawn": false,
+    "SpawnX": 950,
+    "SpawnY": 800,
+    "SpawnRate": 100,
+    "RandomColor": 2,
+    "ColorNumber": 1,
+    "MarginBorder": 20,
+    "InputEnable": true,
+    "GravityPower": -0.5,
+    "SpawnOpacity": 1,
+    "EvolveOpacity": -0.02,
+    "ChangeColor" : -0.017,
+    "StarMode"    : false
+}

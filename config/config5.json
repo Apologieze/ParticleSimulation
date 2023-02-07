@@ -1,0 +1,20 @@
+{
+    "WindowTitle": "Christmas Lights",
+    "WindowSizeX": 1900,
+    "WindowSizeY": 1000,
+    "ParticleImage": "assets/particle.png",
+    "InitNumParticles": 1,
+    "RandomSpawn": true,
+    "SpawnX": 950,
+    "SpawnY": 500,
+    "SpawnRate": 100,
+    "RandomColor": 1,
+    "ColorNumber": 1,
+    "MarginBorder": 20,
+    "InputEnable": true,
+    "GravityPower": 0.5,
+    "SpawnOpacity": 1,
+    "EvolveOpacity": -0.1,
+    "ChangeColor" : 0,
+    "StarMode"    : false
+}
