@@ -9,7 +9,7 @@ import (
 
 // Test du nombre de particules à l'initialisation du système avec le fichier config
 func TestInitSystem(t *testing.T) {
-	config.Get("../config.json")
+	config.Get("../config1.json")
 	var s System = NewSystem()
 	if s.Content.Len() != config.General.InitNumParticles {
 		t.Error("Votre fonction genere", s.Content.Len(), "particules au lieu de:", config.General.InitNumParticles)
@@ -113,7 +113,7 @@ func TestGravity(t *testing.T) {
 
 // Test qui vérifie que la particule est bien détecté lorsque elle sort de la bordure de l'écran
 func TestOutofScreen(t *testing.T) {
-	config.Get("../config.json")
+	config.Get("../config1.json")
 	InitMargin()
 	var tempParticle Particle = Particle{PositionX: BorderRight + 1, PositionY: 0, Alive: true}
 	if !tempParticle.OutOfScreen() {

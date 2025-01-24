@@ -37,7 +37,7 @@ func (g *game) Draw(screen *ebiten.Image) {
 		ebitenutil.DebugPrintAt(screen, "Touche [G] pour activer la gravité", 820, 13)
 		ebitenutil.DebugPrintAt(screen, "Touche [P] pour mettre en pause", 820, 26)
 		ebitenutil.DebugPrintAt(screen, "Touche [Espace] pour clear", 820, 40)
-		ebitenutil.DebugPrintAt(screen, "Touche [flèche gauche/doite] pour changer de config", 820, 53)
+		ebitenutil.DebugPrintAt(screen, "Touche [flèche gauche/droite] pour changer de config", 820, 53)
 	}
 
 }
